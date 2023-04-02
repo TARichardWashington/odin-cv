@@ -3,6 +3,8 @@ export default function Cv({ data }) {
         <div className="p-2 flex justify-center">
             <div className="bg-late-600">
                 {data.name}
+                {data.email}
+                {data.phone}
             </div>
         </div>
     );

@@ -6,7 +6,11 @@ import Cv from './Cv.js'
 
 function App() {
   const [mode, setMode] = useState('dark');
-  const [data, setData] = useState({ name: 'Insert name' });
+  const [data, setData] = useState({
+    name: 'Insert name',
+    email: 'Insert email',
+    phone: 'Inset Phone'
+  });
 
   function toggleMode() {
     setMode(mode === 'dark' ? '' : 'dark');
