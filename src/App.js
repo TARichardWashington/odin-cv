@@ -20,7 +20,9 @@ function App() {
     <div className={'flex flex-col ' + mode}>
       <div className="p-2 dark:bg-slate-900 bg-slate-300">
         <button className="rounded p-2 dark:text-slate-900 dark:bg-slate-300 text-slate-100 bg-slate-900" onClick={toggleMode}>{mode === 'dark' ? 'Light' : 'Dark'} mode</button>
+        <div className="text-center dark:text-slate-100 text-2xl font-bold">CV Builder</div>
       </div>
+
       <Form update={setDataFieldValue} />
       <Cv data={data} />
     </div>
