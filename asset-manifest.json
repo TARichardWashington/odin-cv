@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/TARichardWashington/odin-cv/static/css/main.333a8145.css",
-    "main.js": "/TARichardWashington/odin-cv/static/js/main.e8bd478c.js",
-    "index.html": "/TARichardWashington/odin-cv/index.html",
-    "main.333a8145.css.map": "/TARichardWashington/odin-cv/static/css/main.333a8145.css.map",
-    "main.e8bd478c.js.map": "/TARichardWashington/odin-cv/static/js/main.e8bd478c.js.map"
+    "main.css": "/odin-cv/static/css/main.333a8145.css",
+    "main.js": "/odin-cv/static/js/main.e8bd478c.js",
+    "index.html": "/odin-cv/index.html",
+    "main.333a8145.css.map": "/odin-cv/static/css/main.333a8145.css.map",
+    "main.e8bd478c.js.map": "/odin-cv/static/js/main.e8bd478c.js.map"
   },
   "entrypoints": [
     "static/css/main.333a8145.css",
