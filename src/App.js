@@ -6,14 +6,14 @@ import Cv from './Cv.js'
 
 function App() {
   const [mode, setMode] = useState('dark');
-  const [name, setName] = useState('name');
+  const [data, setData] = useState({ name: 'Insert name' });
 
   function toggleMode() {
     setMode(mode === 'dark' ? '' : 'dark');
   }
 
-  function setCVName(e) {
-    setName(e.target.value);
+  function setDataFieldValue(e) {
+    setData({ ...data, [e.target.name]: e.target.value });
   }
 
   return (
@@ -26,13 +26,13 @@ function App() {
           <h1 className="text-xl text-center pb-5">CV</h1>
           <form>
             <label className="pr-5">Name</label>
-            <input type="text" className="text-slate-900 rounded p-1" onChange={setCVName} />
+            <input type="text" className="text-slate-900 rounded p-1" name="name" onChange={setDataFieldValue} />
           </form>
         </div>
       </div>
       <div className="p-2 flex justify-center">
         <div className="bg-late-600">
-          {name}
+          {data.name}
         </div>
       </div>
     </div>
