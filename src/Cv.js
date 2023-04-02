@@ -1,5 +1,9 @@
-export default function Form() {
+export default function Cv({ data }) {
     return (
-        <p></p>
+        <div className="p-2 flex justify-center">
+            <div className="bg-late-600">
+                {data.name}
+            </div>
+        </div>
     );
 }
