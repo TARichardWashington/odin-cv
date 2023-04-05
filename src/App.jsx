@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import Form from './Form.js'
-import Cv from './Cv.js'
+import Form from './Form.jsx'
+import Cv from './Cv.jsx'
 
 
 function App() {
